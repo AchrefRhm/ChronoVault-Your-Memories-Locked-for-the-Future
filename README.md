@@ -1,86 +1,74 @@
-﻿# ChronoVault
-# ⏳ Digital ChronoVault 💌
+ChronoVault
 
-A futuristic MERN Stack app that lets you lock your memories and open them in the future — it's like sending a letter to your future self 🚀🧠
+⏳ Digital Time Capsule for Your Memories 💌
 
----
+ChronoVault is a futuristic MERN Stack application that lets you lock your memories and revisit them in the future — like sending a letter to your future self 🚀🧠. Preserve your thoughts, messages, and moments securely and experience the joy of unlocking them later.
 
-## 🚀 Live Demo
- 
-🔗 [Frontend Hosted on Vercel](https://chrono-vault-one.vercel.app)   
-🔗 [Backend API on Render](https://chrono-vault-9mfd.onrender.com) 
+🚀 Live Demo
 
----
+Frontend (Vercel): chrono-vault-one.vercel.app
 
-## 🛠️ Tech Stack
+Backend API (Render): chrono-vault-9mfd.onrender.com
 
-- ⚛️ **React** + Vite (Frontend)
-- 🌐 **Node.js** + Express (Backend)
-- 🍃 **MongoDB Atlas** (Database)
-- ☁️ **Render** (Backend Hosting)
-- ⚡ **Vercel** (Frontend Hosting)
+🛠️ Tech Stack
 
----
+Frontend: ⚛️ React + Vite
 
-## 📦 Features
+Backend: 🌐 Node.js + Express
 
-- 📝 Create memory capsules with a title, message, and unlock date
-- 🔐 Lock capsules until a future time
-- 🔓 Automatically unlock and reveal messages on set date
-- 🧾 JWT-based user auth (Register/Login)
-- 🌈 Beautiful UI with responsive design
+Database: 🍃 MongoDB Atlas
 
----
+Hosting: ☁️ Render (Backend) + ⚡ Vercel (Frontend)
 
-## 🧠 Folder Structure
+Auth: 🔑 JWT-based authentication
+
+📦 Features
+
+📝 Create memory capsules with a title, message, and unlock date
+
+🔐 Lock capsules until a future date
+
+🔓 Capsules automatically unlock and reveal messages when the date arrives
+
+🌈 Beautiful, responsive UI for all devices
+
+🧾 Secure user authentication with JWT
+
+🧠 Folder Structure
 DIGITAL 
-├── client # React Frontend
-│ ├── public
-│ ├── src
-│ ├── package.json
-│ └── ...
-├── server # Node + Express Backend
-│ ├── routes
-│ ├── models
-│ ├── config
-│ ├── .env
-│ ├── server.js
-│ └── ...
-└── dist # Optional: build folder
+├── client      # React Frontend
+│   ├── public
+│   ├── src
+│   └── package.json
+├── server      # Node + Express Backend
+│   ├── routes
+│   ├── models
+│   ├── config
+│   ├── .env
+│   └── server.js
+└── dist        # Optional build folder
 
+📁 Environment Variables
 
----
+Create a .env file in the /server folder:
 
-## 📁 Environment Variables
-
-Create a `.env` file in the `/server` folder and add:
-
-```env
-MONGO_URI=****
-JWT_SECRET=****
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
 PORT=5000
 
-
 💡 Future Plans
+
 📩 Email reminders when capsules unlock
 
-🔒 Capsule encryption for privacy
+🔒 Capsule encryption for privacy and security
 
 🌙 Dark Mode toggle
 
-🧠 AI-generated  suggestions
+🧠 AI-generated memory suggestions
 
-📱 PWA support for mobile use
-
+📱 PWA support for mobile devices
 
 📬 Connect
-Made with ❤️ by @rajrituroy2005
-Drop a ⭐ if this helped you in any way!
 
-
----
-
-✅ Paste this as `README.md` into your GitHub repo  
-📸 Let me know if you want help making screenshots or demo GIFs  
-🧙 You're officially a dev building in the future. Proud of you, bro.
-
+Built with ❤️ by Achref Rhouma
+⭐ Give it a star if it helped you or inspired you!
