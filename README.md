@@ -29,3 +29,50 @@
 ---
 
 ## 🧠 Folder Structure
+ChronoVault
+├── client # React Frontend
+│ ├── public
+│ ├── src
+│ └── package.json
+├── server # Node + Express Backend
+│ ├── routes
+│ ├── models
+│ ├── config
+│ ├── .env
+│ └── server.js
+└── dist # Optional build folder
+
+
+---
+
+## 📁 Environment Variables
+Create a `.env` file in the `/server` folder:
+
+---
+
+## 📁 Environment Variables
+Create a `.env` file in the `/server` folder:
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+PORT=5000
+
+
+---
+
+## 💡 Future Plans
+- 📩 Email reminders when capsules unlock
+- 🔒 Capsule encryption for privacy
+- 🌙 Dark Mode toggle
+- 🧠 AI-generated suggestions for memories
+- 📱 PWA support for mobile
+
+---
+
+## 📬 Connect
+Made with ❤️ by **Achref Rhouma**  
+⭐ Star this repo if you like it!
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
