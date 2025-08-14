@@ -1,5 +1,5 @@
-﻿# Time-Capsule
-# ⏳ Digital Time Capsule 💌
+﻿# ChronoVault
+# ⏳ Digital ChronoVault 💌
 
 A futuristic MERN Stack app that lets you lock your memories and open them in the future — it's like sending a letter to your future self 🚀🧠
 
@@ -7,8 +7,8 @@ A futuristic MERN Stack app that lets you lock your memories and open them in th
 
 ## 🚀 Live Demo
  
-🔗 [Frontend Hosted on Vercel](https://time-capsule-one.vercel.app)   
-🔗 [Backend API on Render](https://time-capsule-9mfd.onrender.com) 
+🔗 [Frontend Hosted on Vercel](https://chrono-vault-one.vercel.app)   
+🔗 [Backend API on Render](https://chrono-vault-9mfd.onrender.com) 
 
 ---
 
@@ -33,7 +33,7 @@ A futuristic MERN Stack app that lets you lock your memories and open them in th
 ---
 
 ## 🧠 Folder Structure
-DIGITAL TIME CAPSULE
+DIGITAL 
 ├── client # React Frontend
 │ ├── public
 │ ├── src
@@ -68,7 +68,7 @@ PORT=5000
 
 🌙 Dark Mode toggle
 
-🧠 AI-generated time capsule suggestions
+🧠 AI-generated  suggestions
 
 📱 PWA support for mobile use
 
